@@ -1,4 +1,155 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+:root {
+    --font-1: Arial, Helvetica, sans-serif;
+    --font-2: "Poetsen One", sans-serif;
+
+    --cor-1: #5888A6;
+    --cor-2: #D9CBBA;
+    --cor-3: #6DA69B;
+    --cor-4: #51818C;
+    --cor-fundo: rgb(224, 224, 224);
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: var(--font-1);
+    background-color: var(--cor-2);
+}
+
+header > h1 {
+    font-size: 5em;
+    text-align: center;
+    font-family: var(--font-2);
+    position: relative;
+    padding: 20px;
+    color: var(--cor-3);
+    width: fit-content;
+    margin: auto;
+}
+
+header > h1::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    background-image: url('../imgs/dados.png');
+    background-size: cover;
+
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform:rotate(45deg);
+}
+
+header > h1::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    background-image: url('../imgs/dados.png');
+    background-size: cover;
+
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform:rotate(35deg);
+}
+
+header p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    min-width: 240px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor-fundo);
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.133);
+}
+
+h2 {
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    color: var(--cor-1);
+}
+
+p {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    color: var(--cor-4);
+}
+
+div.table {
+    overflow-x: auto;
+}
+
+div.table::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+div.table::-webkit-scrollbar-thumb {
+   background-color: transparent;
+}
+
+table {
+    width: 600px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0; 
+    border-radius: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+table.menor-table {
+    width: 450px;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: var(--cor-2);
+}
+
+caption {
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: bold;
+    position: sticky;
+    left: 0;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: var(--cor-3);
+}
+
+img.grafico {
+    width: 90%;
+    mix-blend-mode: multiply;
 }
