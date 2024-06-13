@@ -1,0 +1,85 @@
+# O mundo dos Dados
+Na tecnologia atual tudo se trata de um dado. Um vídeo ou imagem de uma rede sócial, Um produto em uma loja virtual, você cadastrado em algum local. Tudo pode ser representado por um dado.
+## O que é um dado
+Dado é uma informação sobre algo ou alguém. Isso nos ajuda a não só entender melhor esse algo ou alguém, mas também a facilitar pesquisas. Um dado em si, só pode ser representado como um número ou uma string(um texto), mas um conjunto de dados pode ser representado, talvez por um **grafico* de várias formas e formatos ou uma **tabela**. 
+
+Vamos supor um exemplo um cadastro de pessoas, e o quanto elas compram em uma certo mercado. Vamos definir nessa tabela várias propriedades como o sexo, o nome, a idade, a quantidade que gasta no total no mercado por mês e qual é a categoria de produto que ela mais comprou em um ano nesse mercado.
+
+### Tabela
+
+Joana Valde - F - 21 - R$ 2.000 - Carne
+Carlos Martins - M - 45 - R$ 1.500 - Vegetais.
+Maria Machado - F - 18 - R$ 3.200 - Doces. 
+Ana dos Santos - F - 35 - R$ 1.000 - produtos de limpeza.
+Janny heller - F - 21 - R$ 5.000 - ingredientes de cozinha. 
+Anny Matoso - F - 35 - R$ 2.000 - carne.
+Lucio Martins - M - 56 - R$ 900 - carne. 
+Demis Aurelio - M - 31 - R$ 1.000 - Doces. 
+Antonio de Morais - M - 25 - R$ 500 - carne.
+Mateus de la'france - M - 21 - R$ 200 - Frutas. 
+Acab antoniete - M - 30 - R$ 500 - ingredientes de cozinha. 
+Ursule dantas - F - 31 - R$ 1.000 - produtos de limpeza. 
+
+Também poderiamos organizar a partir de uma coluna. 
+Por exemplo a partir da coluna de preço, em ordem do menor para o maior.
+Mateus de la'france - M - 21 - R$ 200 - Frutas. 
+Antonio de Morais - M - 25 - R$ 500 - carne.
+Acab antoniete - M - 30 - R$ 500 - ingredientes de cozinha. 
+Lucio Martins - M - 56 - R$ 900 - carne. 
+Ana dos Santos - F - 35 - R$ 1.000 - produtos de limpeza.
+Demis Aurelio - M - 31 - R$ 1.000 - Doces. 
+Ursule dantas - F - 31 - R$ 1.000 - produtos de limpeza. 
+Carlos Martins - M - 45 - R$ 1.500 - Vegetais.
+Anny Matoso - F - 35 - R$ 2.000 - carne.
+Joana Valde - F - 21 - R$ 2.000 - Carne.
+Maria Machado - F - 18 - R$ 3.200 - Doces. 
+Janny heller - F - 21 - R$ 5.000 - ingredientes de cozinha.
+
+### Gráficos
+Podemos utilzar também gráfico, porém quando se trata de gráficos só podemos usar como base dois valores, de uma tabela, claro isso caso seja um gráfico bidimensional. Vamos mostrar alguns exemplos de gráficos aqui. 
+#### Gráfico de Coluna
+Qualitativos(nomes, porcentagens e afins) no eixo horizontal. E quantitativos(expressam uma quantidade) no eixo vértical. 
+
+aqui temos uma de gráfico de coluna do nome e o preço que cada um gasta
+<imagem de gráfico de coluna do nome e o preço que cada um gasta.>
+
+e aqui uma imagem de um gráfico do sexo, e o quanto cada um gasta, em média
+<imagem de gráfico do sexo, e o quanto cada um gasta, em média.>
+#### Gráfico de Pizza
+Representa em um círculo a porcentagem de algo qualitativo ou quantitativo. Por exemplo vamos mostrar aqui uma imagem de cada tipo de produto é a porcentagem de pessoas em que ela é a principal dos usuario. 
+<imagem>
+#### Linha
+Também temos o gráfico de linha, que infelizmente com nosso exemplo não é possível utilizar com nosso exemplo. Pois o gráfico de linha representa a evolução de um certo item de forma quantitativa ao longo de uma data.
+Para isso criamos uma tabela especial:
+Lucro da empresa de exemplo ficticio: Chin automels de 2018 - 2023.
+2018 - 250 milhões
+2019 - 500 milhões
+2020 - 450 milhões
+2021 - 900 milhões
+2022 - 800 milhões
+2023 - 1 bilhão 
+
+e aqui o gráfico:
+<imagem do gráfico.>
+
+----/
+
+Como podemos ver os dados podem ser representados dessa forma, mas agora vamos ver qual é o sentido prático disso. 
+## Uso prático de dados
+Existem vários mas vamos aqui para alguns exemplos, você é aquele mercado lá de cima, e como podemos ver frutas, infelizmente, não são muito vendidas, mas mesmo assim não precisamos investir e gastar muito dinheiro com esse produto, pois analisando ele não faz tanto sucesso quanto os outros.
+
+### Streaming
+Você é dono de um grande streaming de filmes e paga em torno de 2 bilhões em licensa todo ano para um filme em especifico, e ninguém assiste ele praticamente, então você pode descarta-lo do seu catalogo, e assim gastar menos.
+
+Outro com o streaming é que vamos supor que de acordo com os dados analisados, a maior parte dos assinantes são pessoas de mais de 50 anos, e os mais novos assistem apenas uma serie ou outra, então talvez seja necessário investir em mais series parecidas com as que os jovens assistem, para chamar mais atenção dos mais jovens. 
+### Investimentos
+Se uma empresa está por exemplo de acordo com uma análise dos dados, caindo todo mês, 28% do seu lucro, desde 2010, é claro que muito provavelmente é um péssimo investimento(considerando apenas esse dado).
+Na hora de estudar algo para investir é sempre bom ficar atento em coisas como por exemplo o gráfico de faturamento, lucro e dividendos ao longo dos anos. O dado de liquidação, a taxa de vacância e entre outros dados. Esse é outro usu prático. 
+
+----/
+
+## Conclusão
+Vimos muitas informações interessantes, você não sábia o que era dado antes?, consegui entender?. É isso espero que tenham gostado do matérial, feito por um não profissional, estou apenas aprendendo ainda à desenvolver sites, e não sou da área de estatisticas. 
+
+Link github - https://github.com/pedro-makoski
+Link Código fonte - 
