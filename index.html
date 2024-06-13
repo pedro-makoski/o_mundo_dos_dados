@@ -3,9 +3,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
     <title>O mundo dos dados</title>
 </head>
 <body>
-    <h1>O Mundo dos Dados</h1>
+    <header>
+        <h1>O Mundo dos Dados</h1>
+        <p>Na tecnologia atual tudo se trata de um dado. Um vídeo ou imagem de uma rede sócial, Um produto em uma loja virtual, você cadastrado em algum local. Tudo pode ser representado por um dado.</p>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>O que é um dado</h2>
+                <p>Dado é uma informação sobre algo ou alguém. Isso nos ajuda a não só entender melhor esse algo ou alguém, mas também a facilitar pesquisas. Um dado em si, só pode ser representado como um número ou uma string(um texto), mas um conjunto de dados pode ser representado, talvez por um <strong>grafico</strong> de várias formas e formatos ou uma tabela. </p>
+            </section>
+            <section>
+                <p>Vamos supor um exemplo um cadastro de pessoas, e o quanto elas compram em uma certo mercado. Vamos definir nessa tabela várias propriedades como o sexo, o nome, a idade, a quantidade que gasta no total no mercado por mês e qual é a categoria de produto que ela mais comprou em um ano nesse mercado.</p>
+                <h3>Tabela</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Sexo</th>
+                            <th scope="col">Idade</th>
+                            <th scope="col">Valor total pago para o mercado</th>
+                            <th scope="col">Principal tipo de produto, que a pessoa compra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Joana Valde</td>
+                            <td>F</td>
+                            <td>21</td>
+                            <td>R$ 2.000</td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Martins</td>
+                            <td>M</td>
+                            <td>45</td>
+                            <td>R$ 1.500</td>
+                            <td>Vegetais</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Machado</td>
+                            <td>F</td>
+                            <td>18</td>
+                            <td>R$ 3.200</td>
+                            <td>Doces</td>
+                        </tr>
+                        <tr>
+                            <td>Ana dos Santos</td>
+                            <td>F</td>
+                            <td>35</td>
+                            <td>R$ 1.000</td>
+                            <td>produtos de limpeza</td>
+                        </tr>
+                        <tr>
+                            <td>Janny Heller</td>
+                            <td>F</td>
+                            <td>21</td>
+                            <td>R$ 5.000</td>
+                            <td>ingredientes de cozinha</td>
+                        </tr>
+                        <tr>
+                            <td>Anny Matoso</td>
+                            <td>F</td>
+                            <td>35</td>
+                            <td>R$ 2.000</td>
+                            <td>carne</td>
+                        </tr>
+                        <tr>
+                            <td>Lucio Martins</td>
+                            <td>M</td>
+                            <td>56</td>
+                            <td>R$ 900</td>
+                            <td>carne</td>
+                        </tr>
+                        <tr>
+                            <td>Demis Aurelio</td>
+                            <td>M</td>
+                            <td>31</td>
+                            <td>R$ 1.000</td>
+                            <td>Doces</td>
+                        </tr>
+                        <tr>
+                            <td>Antonio de Morais</td>
+                            <td>M</td>
+                            <td>25</td>
+                            <td>R$ 500</td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>Mateus de La'france</td>
+                            <td>M</td>
+                            <td>21</td>
+                            <td>R$ 200</td>
+                            <td>Frutas</td>
+                        </tr>
+                        <tr>
+                            <td>Acab Antoniete</td>
+                            <td>M</td>
+                            <td>30</td>
+                            <td>R$ 500</td>
+                            <td>ingredientes de cozinha</td>
+                        </tr>
+                        <tr>
+                            <td>Ursule dantas</td>
+                            <td>F</td>
+                            <td>31</td>
+                            <td>R$ 1.000</td>
+                            <td>produtos de limpeza</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Por exemplo a partir da coluna de preço, em ordem do menor para o maior.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Sexo</th>
+                            <th scope="col">Idade</th>
+                            <th scope="col">Valor total pago para o mercado</th>
+                            <th scope="col">Principal tipo de produto, que a pessoa compra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mateus de La'france</td>
+                            <td>M</td>
+                            <td>21</td>
+                            <td>R$ 200</td>
+                            <td>Frutas</td>
+                        </tr>
+                        <tr>
+                            <td>Antonio de Morais</td>
+                            <td>M</td>
+                            <td>25</td>
+                            <td>R$ 500</td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>Acab Antoniete</td>
+                            <td>M</td>
+                            <td>30</td>
+                            <td>R$ 500</td>
+                            <td>ingredientes de cozinha</td>
+                        </tr>
+                        <tr>
+                            <td>Lucio Martins</td>
+                            <td>M</td>
+                            <td>56</td>
+                            <td>R$ 900</td>
+                            <td>carne</td>
+                        </tr>
+                        <tr>
+                            <td>Ana dos Santos</td>
+                            <td>F</td>
+                            <td>35</td>
+                            <td>R$ 1.000</td>
+                            <td>produtos de limpeza</td>
+                        </tr>
+                        <tr>
+                            <td>Demis Aurelio</td>
+                            <td>M</td>
+                            <td>31</td>
+                            <td>R$ 1.000</td>
+                            <td>Doces</td>
+                        </tr>
+                        <tr>
+                            <td>Ursule Dantas</td>
+                            <td>F</td>
+                            <td>31</td>
+                            <td>R$ 1.000</td>
+                            <td>produtos de limpeza</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Martins</td>
+                            <td>M</td>
+                            <td>45</td>
+                            <td>R$ 1.500</td>
+                            <td>Vegetais</td>
+                        </tr>
+                        <tr>
+                            <td>Anny Matoso</td>
+                            <td>F</td>
+                            <td>35</td>
+                            <td>R$ 2.000</td>
+                            <td>carne</td>
+                        </tr>
+                        <tr>
+                            <td>Joana Valde</td>
+                            <td>F</td>
+                            <td>21</td>
+                            <td>R$ 2.000</td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Machado</td>
+                            <td>F</td>
+                            <td>18</td>
+                            <td>R$ 3.200</td>
+                            <td>Doces</td>
+                        </tr>
+                        <tr>
+                            <td>Janny Heller</td>
+                            <td>F</td>
+                            <td>21</td>
+                            <td>R$ 5.000</td>
+                            <td>ingredientes de cozinha</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h3>Gráficos</h3>
+                <p>Podemos utilzar também gráfico, porém quando se trata de gráficos só podemos usar como base dois valores, de uma tabela, claro isso caso seja um gráfico bidimensional. Vamos mostrar alguns exemplos de gráficos aqui. </p>
+                <h4>Gráfico de Coluna</h4>
+                <p>Qualitativos(nomes, porcentagens e afins) no eixo horizontal. E quantitativos(expressam uma quantidade) no eixo vértical.</p>
+                <p>aqui temos uma de gráfico de coluna do nome e o preço que cada um gasta</p>
+                <img src="" alt="Imagem de gráfico de coluna do nome e o preço que cada um gasta">
+                <p>e aqui uma imagem de um gráfico do sexo, e o quanto cada um gasta, em média</p>
+                <img src="" alt="de gráfico do sexo, e o quanto cada um gasta, em média.">
+                <h4>Gráfico de Pizza</h4>
+                <p>Representa em um círculo a porcentagem de algo qualitativo ou quantitativo. Por exemplo vamos mostrar aqui uma imagem de cada tipo de produto sobre a porcentagem de pessoas em que ela é a principal dos usuario. </p>
+                <img src="" alt="gráfico de pizza sobre cada tipo de produto sobre a porcentagem de pessoas em que ela é a principal dos usuario.">
+                <h4>Linha</h4>
+                <p>Também temos o gráfico de linha, que infelizmente com nosso exemplo não é possível utilizar com nosso exemplo. Pois o gráfico de linha representa a evolução de um certo item de forma quantitativa ao longo de uma data.</p>
+                <p>Para isso criamos uma tabela especial:</p>
+                <table>
+                    <caption>Lucro da empresa de exemplo ficticio: Chin automels de 2018 - 2023</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Ano</th>
+                            <th scope="col">Lucro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2018</td>
+                            <td>250 milhões</td>
+                        </tr>
+                        <tr>
+                            <td>2019</td>
+                            <td>500 milhões</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>450 milhões</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>900 milhões</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>800 milhões</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>1 bilhão</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img alt="Gráfico de linhas da tabela a cima">
+                <p>Como podemos ver os dados podem ser representados dessa forma, mas agora vamos ver qual é o sentido prático disso.</p>
+            </section>
+        </article>
+        <article>
+            <h2>Uso prático de dados</h2>
+            <p>Existem vários mas vamos aqui para alguns exemplos, você é aquele mercado lá de cima, e como podemos ver frutas, infelizmente, não são muito vendidas, mas mesmo assim não precisamos investir e gastar muito dinheiro com esse produto, pois analisando ele não faz tanto sucesso quanto os outros.</p>
+            <section>
+                <h3>Streaming</h3>
+                <p>Você é dono de um grande streaming de filmes e paga em torno de 2 bilhões em licensa todo ano para um filme em especifico, e ninguém assiste ele praticamente, então você pode descarta-lo do seu catalogo, e assim gastar menos.</p>
+                <p>Outro com o streaming é que vamos supor que de acordo com os dados analisados, a maior parte dos assinantes são pessoas de mais de 50 anos, e os mais novos assistem apenas uma serie ou outra, então talvez seja necessário investir em mais series parecidas com as que os jovens assistem, para chamar mais atenção dos mais jovens.</p>
+            </section>
+            <section>
+                <h3>Investimentos</h3>
+                <p>Se uma empresa está por exemplo de acordo com uma análise dos dados, caindo todo mês, 28% do seu lucro, desde 2010, é claro que muito provavelmente é um péssimo investimento(considerando apenas esse dado).</p>
+                <p>Na hora de estudar algo para investir é sempre bom ficar atento em coisas como por exemplo o gráfico de faturamento, lucro e dividendos ao longo dos anos. O dado de liquidação, a taxa de vacância e entre outros dados. Esse é outro usu prático.</p>
+            </section>
+        </article>
+        <section>
+            <h2>Conclusão</h2>
+            <p>Vimos muitas informações interessantes, você não sábia o que era dado antes?, consegui entender?. É isso espero que tenham gostado do matérial, feito por um não profissional, estou apenas aprendendo ainda à desenvolver sites, e não sou da área de estatisticas. </p>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/pedro-makoski" target="_blank" rel="external"></a>
+    </footer> 
 </body>
 </html>

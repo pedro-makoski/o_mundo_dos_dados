@@ -20,7 +20,6 @@ Mateus de la'france - M - 21 - R$ 200 - Frutas.
 Acab antoniete - M - 30 - R$ 500 - ingredientes de cozinha. 
 Ursule dantas - F - 31 - R$ 1.000 - produtos de limpeza. 
 
-Também poderiamos organizar a partir de uma coluna. 
 Por exemplo a partir da coluna de preço, em ordem do menor para o maior.
 Mateus de la'france - M - 21 - R$ 200 - Frutas. 
 Antonio de Morais - M - 25 - R$ 500 - carne.
@@ -46,7 +45,7 @@ aqui temos uma de gráfico de coluna do nome e o preço que cada um gasta
 e aqui uma imagem de um gráfico do sexo, e o quanto cada um gasta, em média
 <imagem de gráfico do sexo, e o quanto cada um gasta, em média.>
 #### Gráfico de Pizza
-Representa em um círculo a porcentagem de algo qualitativo ou quantitativo. Por exemplo vamos mostrar aqui uma imagem de cada tipo de produto é a porcentagem de pessoas em que ela é a principal dos usuario. 
+Representa em um círculo a porcentagem de algo qualitativo ou quantitativo. Por exemplo vamos mostrar aqui uma imagem de: cada tipo de produto sobre a porcentagem de pessoas em que ela é a principal dos usuario. 
 <imagem>
 #### Linha
 Também temos o gráfico de linha, que infelizmente com nosso exemplo não é possível utilizar com nosso exemplo. Pois o gráfico de linha representa a evolução de um certo item de forma quantitativa ao longo de uma data.
