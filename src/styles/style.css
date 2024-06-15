@@ -214,8 +214,8 @@ section:not(.conclusao) {
 
 .fundo-div div{
     position: absolute;
-    top: -40px;
-    height: 200px;
+    top: -50px;
+    height: 180px;
     width: 100%;
     z-index: -1;
     background-color: white;
