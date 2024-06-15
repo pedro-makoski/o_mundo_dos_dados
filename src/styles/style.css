@@ -231,22 +231,55 @@ img.grafico {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 footer a {
+    position: relative;
     color: black;
     text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+
+    display: block;
+    width: fit-content;
+    margin: auto;
 }
 
-footer a svg{
+a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    transition: .2s ease-in-out;
+}
+
+a:hover::after {
+    background-color: rgb(194, 194, 194);
+    z-index: 1;
+    width: 110%;
+    height: 110%;
+    border-radius: 0;
+    transition: .2s ease-in-out;
+}
+
+footer a svg {
+    position: relative;
     vertical-align: middle;
+    z-index: 2;
 }
 
 footer a span {
-    display: inline-block;
-    margin-top: 5px;
-    vertical-align: middle;
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (min-width: 1020px){
