@@ -6,10 +6,11 @@
     --font-1: Arial, Helvetica, sans-serif;
     --font-2: "Poetsen One", sans-serif;
 
-    --cor-1: #5888A6;
-    --cor-2: #D9CBBA;
-    --cor-3: #57857b;
-    --cor-4: #629ba8;
+    --cor-1: #2D4B73;
+    --cor-2: #D9B70D;
+    --cor-3: #2D4B73;
+    --cor-4: #BF8D30;
+    --cor-fundo-back: #99B4BF;
     --cor-fundo: rgb(224, 224, 224);
 
     --arredondamento-padrao: 50px;
@@ -22,7 +23,7 @@
 
 body {
     font-family: var(--font-1);
-    background-color: var(--cor-2);
+    background-color: var(--cor-fundo-back);
     width: 100%;
 }
 
